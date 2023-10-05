@@ -1,0 +1,23 @@
+{
+    "name": "extend/module-eeadmin",
+    "description": "Add-on of Extend_Warranty module for Magento Enterprise Edition",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "magento@extend.com",
+            "name": "Extend"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "extend/module-warranty": ">=100.2.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wacom\\Extend\\": ""
+        }
+    }
+}
